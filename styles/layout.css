@@ -496,7 +496,7 @@ nav .dropdown3:hover .dropdown-content3 {
 
 #lu {
   position: relative;
-  left: -17vh;
+  left: -12vh;
   top: 4vh;
   width: 15vw;
 }
@@ -543,7 +543,7 @@ nav .dropdown3:hover .dropdown-content3 {
   background: none;
   height: 3vh;
   margin-top: 3vh;
-  margin-left: 63vw;
+  margin-left: 65vw;
   z-index: none;
 }
 
@@ -571,7 +571,7 @@ nav .dropdown3:hover .dropdown-content3 {
   background: none;
   height: 3vh;
   margin-top: 3vh;
-  margin-left: 69vw;
+  margin-left: 70vw;
   z-index: none;
 }
 
