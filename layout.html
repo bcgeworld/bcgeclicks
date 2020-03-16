@@ -45,14 +45,14 @@
         </div>
     </nav>
     <div class="sidebar">
-        <a href="#home"><i class="fas fa-database"></i>My Dashboard</a>
-        <a href=""><i class="fas fa-file-invoice"></i>MyAccounts</a>
-        <a href=""><i class="fas fa-wallet"></i>Pay&Transfer</a>
+        <a href="dashboard.html"><i class="fas fa-database"></i>My Dashboard</a>
+        <a href="layout.html" class="activesidebar"><i class="fas fa-file-invoice"></i>MyAccounts</a>
+        <a href="applyinvest.html"><i class="fas fa-pen"></i>Apply & Invest</a>
+        <a href="rewards.html"><i class="fas fa-gift"></i>Rewards</a>
+        <a href="#service" onclick="disalert()"><i class="fas fa-running"></i>Youth Service</a>
+        <a href="services.html"><i class="fas fa-briefcase"></i>Services</a>
+        <a href=""><i class="fas fa-wallet"></i>Pay & Transfer</a>
         <a href=""><i class="fas fa-plus"></i>TopUp</a>
-        <a href=""><i class="fas fa-pen"></i>Apply & Invest</a>
-        <a href=""><i class="fas fa-gift"></i>Rewards</a>
-        <a href="#service"><i class="fas fa-running"></i>Youth Service</a>
-        <a href="#clients"><i class="fas fa-briefcase"></i>Services</a>
         <a href="#contact"><i class="fas fa-star"></i>Handy Tips</a>
     </div>
     <div class="main">
@@ -129,6 +129,11 @@
         </div>
 
         <script src="src/js/loggedin.js"></script>
+        <script>
+            function disalert() {
+                alert("Youth Service is not Avilable right now.");
+            }
+        </script>
 </body>
 
 </html>
